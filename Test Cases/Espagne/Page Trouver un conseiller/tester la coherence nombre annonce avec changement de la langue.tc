@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>tester la coherence nombre annonce avec changement de la langue</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e0cb65fb-12ad-430c-a55b-bb38767f2840</testCaseGuid>
+</TestCaseEntity>

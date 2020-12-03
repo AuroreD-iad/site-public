@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Lorsque vous avez termin cliquez sur le bouton de validation_rc-image-tile-33</name>
+   <tag></tag>
+   <elementGuidId>ec2f0097-161a-4c68-aab7-ae645b22b744</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='rc-imageselect-target']/table/tbody/tr/td[2]/div/div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>rc-image-tile-33</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://www.google.com:443/recaptcha/api2/payload?p=06AHaCkAYJEZ06zm7Y9DTm4EQTRwV-Mo9VJaOOc7gSkM7RwpCcWr7ovgK8XepsRXyG5OSVBImQbpuRHuAI7Zb5Psi7aeF3mQamU0uUjkrICDqaB5SSFv-1XozpoyJfX5gcf5syfQ49sNuKHS6e9IuXqTr57lGPoJM6JOznmyLfxW83Mj1W_WJ3W64&amp;k=6LcHUDMUAAAAAFBXx95-QDYk35xfsxW2jX-vxcSx</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;rc-imageselect-target&quot;)/table[@class=&quot;rc-imageselect-table-33&quot;]/tbody[1]/tr[1]/td[@class=&quot;rc-imageselect-tile&quot;]/div[@class=&quot;rc-image-tile-target&quot;]/div[@class=&quot;rc-image-tile-wrapper&quot;]/img[@class=&quot;rc-image-tile-33&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/sitepublic1/Page_iad - Vendre son bien immobilier avec _1ba77b/iframe_concat(Crer l  alerte)_c-7v1iwcpytprn</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='rc-imageselect-target']/table/tbody/tr/td[2]/div/div/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/div/div/img</value>
+   </webElementXpaths>
+</WebElementEntity>

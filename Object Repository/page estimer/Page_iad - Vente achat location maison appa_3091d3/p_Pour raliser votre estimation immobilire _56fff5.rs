@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Pour raliser votre estimation immobilire _56fff5</name>
+   <tag></tag>
+   <elementGuidId>ee18752e-0cd9-491b-b046-1c2037e48517</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='content']/div[2]/div/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>align</name>
+      <type>Main</type>
+      <value>justify</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                    Pour réaliser votre estimation immobilière, iad s’appuie sur un partenaire tiers de confiance. Celui-ci met à disposition d’iad son outil de calcul pour estimer gratuitement vos biens immobiliers en ligne. Ce partenaire mutualise les bases de données issues d’un fichier commun de plusieurs agences et réseaux immobiliers. Pour être au plus proche de la réalité, il utilise les informations de milliers de transactions. Son objectif est de vous proposer une estimation en ligne de votre bien à vendre (prix au m2 dans votre ville, prix des derniers biens vendus proches de chez vous …).</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/div[@class=&quot;bg__white&quot;]/div[@class=&quot;wrapper&quot;]/p[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='content']/div[2]/div/p</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comment évaluer un bien immobilier avec notre outil d’estimation immobilière ?'])[1]/following::p[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Soumettre'])[1]/following::p[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Estimer son appartement ou faire estimer sa maison'])[1]/preceding::p[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pour réaliser votre estimation immobilière, iad s’appuie sur un partenaire tiers de confiance. Celui-ci met à disposition d’iad son outil de calcul pour estimer gratuitement vos biens immobiliers en ligne. Ce partenaire mutualise les bases de données issues d’un fichier commun de plusieurs agences et réseaux immobiliers. Pour être au plus proche de la réalité, il utilise les informations de milliers de transactions. Son objectif est de vous proposer une estimation en ligne de']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/p</value>
+   </webElementXpaths>
+</WebElementEntity>

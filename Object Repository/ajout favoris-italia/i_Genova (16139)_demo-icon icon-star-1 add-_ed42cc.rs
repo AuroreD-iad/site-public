@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Genova (16139)_demo-icon icon-star-1 add-_ed42cc</name>
+   <tag></tag>
+   <elementGuidId>601f9d89-ddbd-49e4-b522-e0e24270a908</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tabs-news-ads-1']/div/div/div/div[2]/div/div/div/div/div[2]/div[3]/div/span/span/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>demo-icon icon-star-1 add-selection pointer</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-content</name>
+      <type>Main</type>
+      <value>40508</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tabs-news-ads-1&quot;)/div[@class=&quot;slider__annonces slick-initialized slick-slider&quot;]/div[@class=&quot;slick-list draggable&quot;]/div[@class=&quot;slick-track&quot;]/div[@class=&quot;slick-slide slick-active&quot;]/div[1]/div[@class=&quot;col-4&quot;]/div[@class=&quot;estate&quot;]/div[@class=&quot;c-offer&quot;]/div[@class=&quot;c-offer__body&quot;]/div[@class=&quot;c-offer__localization&quot;]/div[1]/span[@class=&quot;favorite&quot;]/span[@class=&quot;button button__favorites&quot;]/i[@class=&quot;demo-icon icon-star-1 add-selection pointer&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tabs-news-ads-1']/div/div/div/div[2]/div/div/div/div/div[2]/div[3]/div/span/span/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div[2]/div[3]/div/span/span/i</value>
+   </webElementXpaths>
+</WebElementEntity>

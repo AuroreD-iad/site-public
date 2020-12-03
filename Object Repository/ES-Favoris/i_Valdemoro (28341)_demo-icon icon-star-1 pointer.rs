@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Valdemoro (28341)_demo-icon icon-star-1 pointer</name>
+   <tag></tag>
+   <elementGuidId>6c0a66bd-56c9-413e-97fb-7e6afb52842e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='content']/div[3]/div[2]/div/div/div/div[2]/div[3]/div/span/span/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>demo-icon icon-star-1 pointer</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-content</name>
+      <type>Main</type>
+      <value>39989</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/div[@class=&quot;wrapper&quot;]/div[@class=&quot;l-result__list row&quot;]/div[@class=&quot;col-4&quot;]/div[@class=&quot;estate&quot;]/div[@class=&quot;c-offer&quot;]/div[@class=&quot;c-offer__body&quot;]/div[@class=&quot;c-offer__localization&quot;]/div[1]/span[@class=&quot;favorite&quot;]/span[@class=&quot;button button__favorites login_favorite_add&quot;]/i[@class=&quot;demo-icon icon-star-1 pointer&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='content']/div[3]/div[2]/div/div/div/div[2]/div[3]/div/span/span/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/span/span/i</value>
+   </webElementXpaths>
+</WebElementEntity>

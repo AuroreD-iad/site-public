@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Lorsque vous avez termin cliquez sur le bouton de validation_rc-image-tile-33</name>
+   <tag></tag>
+   <elementGuidId>31c9d3a8-0c44-4508-9345-af3318aef974</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='rc-imageselect-target']/table/tbody/tr[3]/td/div/div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>rc-image-tile-33</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://www.google.com:443/recaptcha/api2/payload?p=06AGdBq27Wpcs0k-A6Na5tB-6Fa3saVEjml-5rhlaqM2nmjZiXS5zn1damk-eD3hIIkEUG3NAbYym5nmamcA8miAnYUY8Mq2gCe_lTm-lMOMFmmfwc8C_qULbnIjWD88oclxWFGOFyimXSxenqtj5XFpAoNKJ7-Qh2KcXyCA-DID3ccm5Hh0e6-qI&amp;k=6Lc5dHYUAAAAANnjXh_gjvT_bYuTTg97VWdX8w_S</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;rc-imageselect-target&quot;)/table[@class=&quot;rc-imageselect-table-33&quot;]/tbody[1]/tr[3]/td[@class=&quot;rc-imageselect-tile&quot;]/div[@class=&quot;rc-image-tile-target&quot;]/div[@class=&quot;rc-image-tile-wrapper&quot;]/img[@class=&quot;rc-image-tile-33&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/test captcha/Page_Devenez conseiller immobilier indpenda_b4ebde/iframe_html1body1div6div4iframe1_c-290uza5qzs6h</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='rc-imageselect-target']/table/tbody/tr[3]/td/div/div/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[3]/td/div/div/img</value>
+   </webElementXpaths>
+</WebElementEntity>

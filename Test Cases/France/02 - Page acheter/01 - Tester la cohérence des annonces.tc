@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01 - Tester la cohérence des annonces</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d7269bff-8e35-48af-b216-0983a0280f9c</testCaseGuid>
+</TestCaseEntity>

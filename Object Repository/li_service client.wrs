@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WindowsElementEntity>
+   <description></description>
+   <name>li_service client</name>
+   <tag></tag>
+   <locator>//*[@id=&quot;contact_us_service-Service client&quot;]</locator>
+   <locatorStrategy>XPATH</locatorStrategy>
+   <properties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Relative Path</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;contact_us_service-Service client&quot;]</value>
+   </properties>
+</WindowsElementEntity>

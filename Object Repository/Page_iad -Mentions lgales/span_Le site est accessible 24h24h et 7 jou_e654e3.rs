@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Le site est accessible 24h24h et 7 jou_e654e3</name>
+   <tag></tag>
+   <elementGuidId>52cfd5b9-e4ef-40b0-9c94-13a9a1237fed</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mentions-legales']/div/div/p[3]/span[22]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Le site est accessible 24h/24h et 7 jours/7. Toutefois I@D France ne saurait être responsable en cas d'impossibilité momentanée d'utiliser le site en cas, notamment, de force majeure, difficultés informatiques, difficultés liées aux réseaux de télécommunications, difficultés techniques, difficultés liées au réseau EDF. Pour des raisons de maintenance, I@D France pourra interrompre l'accès au site et s'efforcera d'en avertir préalablement les utilisateurs. </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mentions-legales&quot;)/div[@class=&quot;pageBlock&quot;]/div[@class=&quot;wrapper&quot;]/p[3]/span[22]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mentions-legales']/div/div/p[3]/span[22]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hébergeur du site:'])[1]/preceding::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[22]</value>
+   </webElementXpaths>
+</WebElementEntity>
