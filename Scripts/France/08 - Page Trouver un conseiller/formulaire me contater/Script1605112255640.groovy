@@ -23,9 +23,9 @@ WebUI.navigateToUrl('http://preprod.iadfrance.fr/')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/Page_iad - Vente, achat, location, maison, _20b116/svg_FERMER_svg-inline--fa fa-times fa-w-11'))
+not_run: WebUI.click(findTestObject('Object Repository/Page_iad - Vente, achat, location, maison, _20b116/svg_FERMER_svg-inline--fa fa-times fa-w-11'))
 
-WebUI.click(findTestObject('Object Repository/FR-trouver conseiller-me contacter/a_Trouver un conseiller'))
+WebUI.click(findTestObject('Site public au 03-12-2020/Liens du menu/a_Trouver un conseiller'))
 
 WebUI.click(findTestObject('Object Repository/FR-trouver conseiller-me contacter/a_Voir le mini-site_panel_open'))
 

@@ -23,9 +23,11 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://preprod.iadfrance.fr/')
 
-WebUI.click(findTestObject('Fermer/Page_iad - Vente achat location maison appartement immobilier de proximit/div_FERMER'))
+WebUI.waitForPageLoad(0)
 
-WebUI.click(findTestObject('Page Trouver un conseiller/Trouver un cons/Page_iad - Vente achat location maison appartement immobilier de proximit/a_Trouver un conseiller'))
+not_run: WebUI.click(findTestObject('Fermer/Page_iad - Vente achat location maison appartement immobilier de proximit/div_FERMER'))
+
+WebUI.click(findTestObject('Site public au 03-12-2020/Liens du menu/a_Trouver un conseiller'))
 
 A = WebUI.getText(findTestObject('Object Repository/Page Trouver un conseiller/Page_iad - Trouvez votre conseiller immobil_595286/span_122'))
 

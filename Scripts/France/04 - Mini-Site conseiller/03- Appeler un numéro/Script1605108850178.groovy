@@ -23,7 +23,7 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://preprod.iadfrance.fr/')
 
-WebUI.click(findTestObject('Object Repository/Appeler numéo/Page_iad - Vente achat location maison appa_3091d3/span_FERMER'))
+not_run: WebUI.click(findTestObject('Object Repository/Appeler numéo/Page_iad - Vente achat location maison appa_3091d3/span_FERMER'))
 
 WebUI.click(findTestObject('Object Repository/Appeler numéo/Page_iad - Vente achat location maison appa_3091d3/a_Louer'))
 

@@ -23,9 +23,11 @@ WebUI.navigateToUrl('https://preprod.iadfrance.fr/')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/Page_iad - Vente, achat, location, maison, _20b116/span_FERMER'))
+not_run: WebUI.click(findTestObject('Object Repository/Page_iad - Vente, achat, location, maison, _20b116/span_FERMER'))
 
 WebUI.click(findTestObject('Object Repository/Page_iad - Vente, achat, location, maison, _20b116/a_Trouver un conseiller'))
 
 WebUI.click(findTestObject('Object Repository/Page_iad - Trouvez votre conseiller immobil_595286/input_Leaflet_agent-name'))
+
+WebUI.closeBrowser()
 

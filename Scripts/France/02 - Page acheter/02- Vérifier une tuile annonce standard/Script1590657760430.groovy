@@ -15,12 +15,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://preprod.iadfrance.fr')
 
+WebUI.maximizeWindow()
+
 not_run: WebUI.click(findTestObject('Object Repository/Ordre d affichage-FR/Page_iad - Vente achat location maison appa_3091d3/div_FERMER'))
+
+WebUI.waitForPageLoad(0)
 
 WebUI.click(findTestObject('Object Repository/Page acheter/Page_iad - Vente achat location maison appa_3091d3/a_Acheter'))
 

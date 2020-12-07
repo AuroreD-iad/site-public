@@ -25,7 +25,7 @@ WebUI.navigateToUrl('https://preprod.iadfrance.fr/')
 
 not_run: WebUI.click(findTestObject('calculerMensualité/Page_iad - Vente achat location maison appartement immobilier de proximit/span_FERMER'))
 
-WebUI.click(findTestObject('Object Repository/calculerMensualité/Page_iad - Vente achat location maison appa_3091d3/a_Louer'))
+WebUI.click(findTestObject('mini site/Page_iad - Vente achat location maison appa_3091d3/a_Louer'))
 
 WebUI.verifyElementClickable(findTestObject('calculerMensualité/Page_iad - Vente achat location maison appa_3091d3/a_Louer'))
 

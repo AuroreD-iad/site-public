@@ -6,15 +6,15 @@
    <elementGuidId>5de8075c-31f7-402b-8606-90efab5d4992</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;footer&quot;]/div[2]/div/ul/li[9]/a</value>
+         <value>//*[@id=&quot;footer&quot;]/div[2]/div/ul/li[8]/a</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>id(&quot;footer&quot;)/div[@class=&quot;menu__third&quot;]/div[@class=&quot;wrapper&quot;]/ul[@class=&quot;nav navbar-nav&quot;]/li[8]/a[1][count(. | //*[@href = '/contactez-nous' and (text() = 'Nous contacter' or . = 'Nous contacter')]) = count(//*[@href = '/contactez-nous' and (text() = 'Nous contacter' or . = 'Nous contacter')])]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

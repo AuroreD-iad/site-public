@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
@@ -22,17 +23,19 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://preprod.iadfrance.fr/')
 
-WebUI.click(findTestObject('Object Repository/bouton fermer/Page_iad - Vente achat location maison appartement immobilier de proximit/span_FERMER'))
+WebUI.waitForPageLoad(0)
+
+not_run: WebUI.click(findTestObject('Object Repository/bouton fermer/Page_iad - Vente achat location maison appartement immobilier de proximit/span_FERMER'))
 
 WebUI.click(findTestObject('Page_iad - Vente, achat, location, maison, appartement, immobilier de proximit/a_PRESTIGE'))
 
-var = WebUI.getText(findTestObject('test1/Page_iad - Vente achat location maison appartement immobilier de proximit/p_66 rsultats                                        sur 66 biens de prestige en France'))
+var = WebUI.getText(findTestObject('test1/Page_iad - Vente, achat, location, maison, appartement, immobilier de proximit/p_89 rsultats                                        sur 89 biens de prestige en France'))
 
 WebUI.click(findTestObject('test1/Page_iad - Vente achat location maison appa_3091d3/img'))
 
 WebUI.click(findTestObject('Page_iad - Vente, achat, location, maison, appartement, immobilier de proximit/a_PRESTIGE'))
 
-var1 = WebUI.getText(findTestObject('test1/Page_iad - Vente achat location maison appartement immobilier de proximit/p_66 rsultats                                        sur 66 biens de prestige en France'))
+var1 = WebUI.getText(findTestObject('test1/Page_iad - Vente, achat, location, maison, appartement, immobilier de proximit/p_89 rsultats                                        sur 89 biens de prestige en France'))
 
 WebUI.verifyEqual(var1, var)
 
@@ -40,7 +43,7 @@ WebUI.click(findTestObject('test1/Page_iad - Vente achat location maison appa_30
 
 WebUI.click(findTestObject('test1/Page_iad - Vente achat location maison appa_3091d3/a_PRESTIGE'))
 
-var2 = WebUI.getText(findTestObject('test1/Page_iad - Vente achat location maison appartement immobilier de proximit/p_66 rsultats                                        sur 66 biens de prestige en France'))
+var2 = WebUI.getText(findTestObject('test1/Page_iad - Vente, achat, location, maison, appartement, immobilier de proximit/p_89 rsultats                                        sur 89 biens de prestige en France'))
 
 WebUI.verifyEqual(var2, var)
 

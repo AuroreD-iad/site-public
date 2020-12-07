@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
@@ -24,7 +25,7 @@ WebUI.maximizeWindow()
 
 not_run: WebUI.click(findTestObject('Object Repository/Affichage numéro barème, envoyer un mail et imprimer/Page_iad - Vente achat location maison appa_3091d3/div_FERMER'))
 
-WebUI.click(findTestObject('Object Repository/Affichage numéro barème, envoyer un mail et imprimer/Page_iad - Vente achat location maison appa_3091d3/a_Acheter'))
+WebUI.click(findTestObject('Affichage numéro barème, envoyer un mail et imprimer/Page_iad - Vente achat location maison appa_3091d3/a_Acheter'))
 
 WebUI.click(findTestObject('Affichage numéro barème, envoyer un mail et imprimer/li_iad France                              _687756'))
 
@@ -46,4 +47,6 @@ WebUI.verifyElementPresent(findTestObject('Page acheter/bouton/Page_iad - Appart
     0)
 
 WebUI.click(findTestObject('Page acheter/bouton/Page_iad - Appartement de 71 m - 2 chambres - PARIS/span_Annuler'))
+
+WebUI.closeBrowser()
 

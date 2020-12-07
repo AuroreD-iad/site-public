@@ -6,12 +6,12 @@
    <elementGuidId>0f1c60f4-fd66-452a-a3c7-a251eb31705e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//nav[@id='menu']/ul/li[5]/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>li.item-highlighted > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//nav[@id='menu']/ul/li[5]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -53,7 +53,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//nav[@id='menu']/ul/li[5]/a</value>
+      <value>/html/body/div[6]/div/header/nav/ul/li[5]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

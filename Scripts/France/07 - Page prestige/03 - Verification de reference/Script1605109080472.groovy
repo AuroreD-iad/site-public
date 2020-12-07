@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
@@ -24,11 +25,13 @@ WebUI.navigateToUrl('https://preprod.iadfrance.fr/')
 
 WebUI.waitForPageLoad(5)
 
-WebUI.click(findTestObject('Object Repository/Formulaire conseiller/Page_iad - Vente achat location maison appa_3091d3/div_FERMER'))
+not_run: WebUI.click(findTestObject('Object Repository/Formulaire conseiller/Page_iad - Vente achat location maison appa_3091d3/div_FERMER'))
 
-WebUI.click(findTestObject('Object Repository/Formulaire conseiller/Page_iad - Vente achat location maison appa_3091d3/a_PRESTIGE'))
+WebUI.click(findTestObject('Site public au 03-12-2020/Liens du menu/a_PRESTIGE'))
 
-WebUI.click(findTestObject('Object Repository/Page_iad - Vente achat location maison appa_3091d3/img_Surface dcroissant_lazy'))
+not_run: WebUI.waitForPageLoad(0)
+
+WebUI.click(findTestObject('REF/Page_iad - Vente achat location maison appa_3091d3/img_Surface dcroissant_lazy'))
 
 test = WebUI.getText(findTestObject('Page_iad - Appartement de 122 m - 3 chambre_5a2bf7/span_760429'))
 

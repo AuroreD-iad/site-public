@@ -23,11 +23,13 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://preprod.iadfrance.fr/')
 
-WebUI.click(findTestObject('Object Repository/Formulaire conseiller/Page_iad - Vente achat location maison appa_3091d3/div_FERMER'))
+not_run: WebUI.click(findTestObject('Object Repository/Formulaire conseiller/Page_iad - Vente achat location maison appa_3091d3/div_FERMER'))
 
-WebUI.click(findTestObject('Object Repository/Formulaire conseiller/Page_iad - Vente achat location maison appa_3091d3/a_PRESTIGE'))
+WebUI.click(findTestObject('Site public au 03-12-2020/Liens du menu/a_PRESTIGE'))
 
-WebUI.click(findTestObject('Object Repository/Formulaire conseiller/Page_iad - Vente achat location maison appa_3091d3/img_Surface dcroissant_lazy'))
+WebUI.waitForPageLoad(0)
+
+WebUI.click(findTestObject('Formulaire conseiller/Page_iad - Vente achat location maison appa_3091d3/img_Surface dcroissant_lazy'))
 
 WebUI.setText(findTestObject('Object Repository/Formulaire conseiller/Page_iad - Maison de ville de 180 m - 4 cha_ee51a4/input_Je souhaiterais me renseigner sur les_bb961c'), 
     'test')

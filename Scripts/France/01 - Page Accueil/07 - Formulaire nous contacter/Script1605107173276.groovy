@@ -27,8 +27,6 @@ WebUI.waitForPageLoad(0)
 
 not_run: WebUI.click(findTestObject('Object Repository/Formulaire nous contacter/Page_iad - Vente achat location maison appa_3091d3/span_FERMER'))
 
-WebUI.waitForPageLoad(5)
-
 WebUI.click(findTestObject('Page_iad - Vente, achat, location, maison, _20b116/a_Nous contacter'))
 
 WebUI.waitForPageLoad(0)

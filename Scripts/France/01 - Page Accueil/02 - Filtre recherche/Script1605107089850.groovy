@@ -27,51 +27,51 @@ WebUI.waitForPageLoad(0)
 
 not_run: WebUI.click(findTestObject('Object Repository/Page Acceuil/Page_iad - Vente, achat, location, maison, _20b116/div_FERMER'))
 
-WebUI.click(findTestObject('Site Public - page Accueil - Champs recherche/a_plus de criteres'))
+WebUI.click(findTestObject('Site public au 03-12-2020/Site Public - page Accueil - Champs recherche/a_plus de criteres'))
 
-WebUI.click(findTestObject('Site Public - page Accueil - Champs recherche/a_Type(s) de bien'))
+WebUI.click(findTestObject('Site public au 03-12-2020/Site Public - page Accueil - Champs recherche/a_Type(s) de bien'))
 
-WebUI.click(findTestObject('Site Public - page Accueil - Champs recherche/li_Appartement'))
+WebUI.click(findTestObject('Site public au 03-12-2020/Site Public - page Accueil - Champs recherche/li_Appartement'))
 
-WebUI.click(findTestObject('Site Public - page Accueil - Champs recherche/a_Surface minmax'))
+WebUI.click(findTestObject('Site public au 03-12-2020/Site Public - page Accueil - Champs recherche/a_Surface minmax'))
 
-WebUI.setText(findTestObject('Site Public - page Accueil - Champs recherche/input_Min _surface_min'), '50')
+WebUI.setText(findTestObject('Site public au 03-12-2020/Site Public - page Accueil - Champs recherche/input_Min _surface_min'), '50')
 
-WebUI.setText(findTestObject('Site Public - page Accueil - Champs recherche/input_Max _surface_max'), '100')
+WebUI.setText(findTestObject('Site public au 03-12-2020/Site Public - page Accueil - Champs recherche/input_Max _surface_max'), '100')
 
-WebUI.click(findTestObject('Site Public - page Accueil - Champs recherche/a_Pice(s)'))
+WebUI.click(findTestObject('Site public au 03-12-2020/Site Public - page Accueil - Champs recherche/a_Pice(s)'))
 
 not_run: WebUI.click(findTestObject('Object Repository/Page Acceuil/Page_iad - Vente, achat, location, maison, _20b116/i_m_demo-icon icon-piece-1'))
 
-WebUI.click(findTestObject('Site Public - page Accueil - Champs recherche/li_1 pice'))
+WebUI.click(findTestObject('Site public au 03-12-2020/Site Public - page Accueil - Champs recherche/li_1 pice'))
 
-WebUI.click(findTestObject('Site Public - page Accueil - Champs recherche/a_Tag(s)'))
+WebUI.click(findTestObject('Site public au 03-12-2020/Site Public - page Accueil - Champs recherche/a_Tag(s)'))
 
-WebUI.click(findTestObject('Site Public - page Accueil - Champs recherche/li_Exclusivit'))
+WebUI.click(findTestObject('Site public au 03-12-2020/Site Public - page Accueil - Champs recherche/li_Exclusivit'))
 
-WebUI.click(findTestObject('Site Public - page Accueil - Champs recherche/a_Chambres'))
+WebUI.click(findTestObject('Site public au 03-12-2020/Site Public - page Accueil - Champs recherche/a_Chambres'))
 
-WebUI.click(findTestObject('Site Public - page Accueil - Champs recherche/li_1 chambre'))
+WebUI.click(findTestObject('Site public au 03-12-2020/Site Public - page Accueil - Champs recherche/li_1 chambre'))
 
 WebUI.click(findTestObject('Site Public - page Accueil - Champs recherche/ajout/div_tendre la recherche                                            5 km                        10 km                        15 km20 km'))
 
-WebUI.click(findTestObject('Site Public - page Accueil - Champs recherche/a_tendre la recherche'))
+WebUI.click(findTestObject('Site public au 03-12-2020/Site Public - page Accueil - Champs recherche/a_tendre la recherche'))
 
-WebUI.click(findTestObject('Site Public - page Accueil - Champs recherche/li_5 km'))
+WebUI.click(findTestObject('Site public au 03-12-2020/Site Public - page Accueil - Champs recherche/li_5 km'))
 
-WebUI.click(findTestObject('Site Public - page Accueil - Champs recherche/a_DPE'))
+WebUI.click(findTestObject('Site public au 03-12-2020/Site Public - page Accueil - Champs recherche/a_DPE'))
 
-WebUI.click(findTestObject('Site Public - page Accueil - Champs recherche/li_DPE A'))
+WebUI.click(findTestObject('Site public au 03-12-2020/Site Public - page Accueil - Champs recherche/li_DPE A'))
 
-WebUI.click(findTestObject('Site Public - page Accueil - Champs recherche/a_Type mandat'))
+WebUI.click(findTestObject('Site public au 03-12-2020/Site Public - page Accueil - Champs recherche/a_Type mandat'))
 
-WebUI.click(findTestObject('Site Public - page Accueil - Champs recherche/li_Exclusif'))
+WebUI.click(findTestObject('Site public au 03-12-2020/Site Public - page Accueil - Champs recherche/li_Exclusif'))
 
-WebUI.click(findTestObject('Site Public - page Accueil - Champs recherche/li_Non-exclusif'))
+WebUI.click(findTestObject('Site public au 03-12-2020/Site Public - page Accueil - Champs recherche/li_Non-exclusif'))
 
-WebUI.setText(findTestObject('Site Public - page Accueil - Champs recherche/input_Non-exclusif_id'), 'N°1230')
+WebUI.setText(findTestObject('Site public au 03-12-2020/Site Public - page Accueil - Champs recherche/input_Non-exclusif_id'), 'N°1230')
 
-WebUI.click(findTestObject('Site Public - page Accueil - Champs recherche/a_moins de criteres'))
+WebUI.click(findTestObject('Site public au 03-12-2020/Site Public - page Accueil - Champs recherche/a_moins de criteres'))
 
 WebUI.closeBrowser()
 

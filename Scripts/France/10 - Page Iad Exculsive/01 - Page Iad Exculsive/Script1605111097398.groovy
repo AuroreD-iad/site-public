@@ -23,7 +23,7 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://preprod.iadfrance.fr/')
 
-WebUI.click(findTestObject('Page IAD coups de coeur-FR/Page_iad - Vente achat location maison appa_3091d3/div_FERMER'))
+not_run: WebUI.click(findTestObject('Page IAD coups de coeur-FR/Page_iad - Vente achat location maison appa_3091d3/div_FERMER'))
 
 WebUI.click(findTestObject('Page_iad - Vente, achat, location, maison, appartement, immobilier de proximit/a_Les exclusivits iad'))
 

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//nav[@id='menu']/ul/li[2]/a</value>
+         <value>//*[@id=&quot;menu&quot;]/ul/li[2]/a</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -22,7 +22,7 @@
     ')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

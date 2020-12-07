@@ -46,7 +46,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='searchForm']/div/div/div/div/a</value>
+      <value>//*[@id=&quot;searchForm&quot;]/div[1]/div[1]/div[1]/div/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

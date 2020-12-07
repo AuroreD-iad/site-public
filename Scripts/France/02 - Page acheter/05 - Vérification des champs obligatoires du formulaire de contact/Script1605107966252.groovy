@@ -23,7 +23,7 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://preprod.iadfrance.fr/')
 
-WebUI.click(findTestObject('Formulaire_champs obligatoires/Page_iad - Vente achat location maison appa_3091d3/div_FERMER'))
+not_run: WebUI.click(findTestObject('Formulaire_champs obligatoires/Page_iad - Vente achat location maison appa_3091d3/div_FERMER'))
 
 WebUI.click(findTestObject('Formulaire_champs obligatoires/Page_iad - Vente achat location maison appa_3091d3/a_Acheter'))
 

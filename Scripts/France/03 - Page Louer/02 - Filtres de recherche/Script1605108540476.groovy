@@ -27,8 +27,6 @@ not_run: WebUI.click(findTestObject('Object Repository/Recherche/Page_iad - Vent
 
 WebUI.click(findTestObject('Object Repository/Recherche/Page_iad - Vente achat location maison appa_3091d3/a_Louer'))
 
-WebUI.click(findTestObject('Object Repository/Recherche/Page_iad - Vente achat location maison appa_3091d3/a_Louer'))
-
 WebUI.click(findTestObject('Object Repository/Recherche/Page_iad - Vente achat location maison appa_3091d3/a_Louer_1'))
 
 WebUI.click(findTestObject('Object Repository/Recherche/Page_iad - Vente achat location maison appa_3091d3/li_Louer'))

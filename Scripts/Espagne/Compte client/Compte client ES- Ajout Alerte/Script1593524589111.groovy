@@ -15,38 +15,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
-not_run: WebUI.openBrowser('')
-
-not_run: WebUI.navigateToUrl('https://preprod.iad-italia.it/')
-
-not_run: WebUI.click(findTestObject('Object Repository/creer alerte/span_CERRAR'))
-
-not_run: WebUI.click(findTestObject('Object Repository/creer alerte/input_Alquilar_whereToBuy'))
-
-not_run: WebUI.click(findTestObject('creer alerte/i_cat_demo-icon icon-user-4'))
-
-not_run: WebUI.click(findTestObject('Object Repository/creer alerte/a_MIS ALERTAS'))
-
-not_run: WebUI.setText(findTestObject('Object Repository/creer alerte/input_CREAR UNA CUENTA__username'), 'test@espana.es')
-
-not_run: WebUI.setEncryptedText(findTestObject('Object Repository/Alertas/input_CREAR UNA CUENTA__password'), 'U7ULkjol2U8D0Pq064e+Nw==')
-
-not_run: WebUI.verifyElementClickable(findTestObject('Object Repository/creer alerte/button_Registrarse'))
-
-not_run: WebUI.doubleClick(findTestObject('Object Repository/creer alerte/button_Registrarse'))
-
-not_run: WebUI.delay(10)
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://preprod.iadespana.es/')
 
-WebUI.click(findTestObject('alertes-italia/span_CHIUDERE'))
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('alertes-italia/i_en_demo-icon icon-user-4'))
+WebUI.click(findTestObject('Object Repository/creer alerte/span_CERRAR'))
 
-WebUI.click(findTestObject('alertes-italia/a_LE MIE RICERCHE'))
+WebUI.click(findTestObject('Object Repository/creer alerte/input_Alquilar_whereToBuy'))
+
+WebUI.click(findTestObject('creer alerte/i_cat_demo-icon icon-user-4'))
+
+WebUI.click(findTestObject('Object Repository/creer alerte/a_MIS ALERTAS'))
 
 WebUI.setText(findTestObject('Object Repository/creer alerte/input_CREAR UNA CUENTA__username'), 'test@espana.es')
 

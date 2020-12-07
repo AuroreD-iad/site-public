@@ -6,6 +6,10 @@
    <elementGuidId>cef9a21e-bb6d-4de4-a6aa-3143bd22d108</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//nav[@id='menu']/ul/li/a</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@href = '/achat/liste/annonces?sort=ad.firstPublishDate&amp;dir=desc' and (text() = '
             Acheter
@@ -16,10 +20,6 @@
 
         
     ')]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//nav[@id='menu']/ul/li/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -54,7 +54,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;menu&quot;)/ul[@class=&quot;nav navbar-nav&quot;]/li[@class=&quot;first&quot;]/a[1]</value>
+      <value>//*[@id=&quot;menu&quot;]/ul/li[1]/a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
