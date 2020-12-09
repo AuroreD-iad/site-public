@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Cas de test => vérification de la connexion à un compte client existant</description>
+   <name>Compte client - connexion</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7614f5e6-1f0f-4acc-904b-1238f29ca49e</testCaseGuid>
+</TestCaseEntity>

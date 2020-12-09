@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 not_run: WebUI.openBrowser('')
 
@@ -42,7 +43,13 @@ not_run: WebUI.closeBrowser()
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://preprod.iad-italia.it/')
+
+WebUI.waitForPageLoad(0)
+
+not_run: WebUI.acceptAlert()
 
 WebUI.click(findTestObject('alertes-italia/span_CHIUDERE'))
 
@@ -50,7 +57,7 @@ WebUI.click(findTestObject('Object Repository/IT-Louer-formulaire contact-msg de
 
 WebUI.click(findTestObject('alertes-italia/i_en_demo-icon icon-user-4'))
 
-WebUI.click(findTestObject('Object Repository/ajout favoris-italia/a_I MIEI ANNUNCI PREFERITI'))
+WebUI.click(findTestObject('ajout favoris-italia/Page_iad - Compra, vendi o Affitta unimmobile in Italia/a_I MIEI ANNUNCI PREFERITI'))
 
 WebUI.setText(findTestObject('Object Repository/ajout favoris-italia/input_CREA ACCOUNT__username'), 'had.a@gmail.it')
 
@@ -58,9 +65,13 @@ WebUI.setEncryptedText(findTestObject('Object Repository/ajout favoris-italia/in
 
 WebUI.click(findTestObject('Object Repository/ajout favoris-italia/button_Accedi'))
 
-WebUI.click(findTestObject('activation du compte es/Page_iad - Comprar vender y alquilar una casa o un piso en Espaa/a_cat_button button__profil_user menu-user-icon'))
+WebUI.waitForPageLoad(0)
 
-WebUI.click(findTestObject('Object Repository/sans favoris/Page_iad - Comprar vender y alquilar una ca_9c3789/a_MIS ANUNCIOS FAVORITOS'))
+not_run: WebUI.click(findTestObject('activation du compte es/Page_iad - Comprar vender y alquilar una casa o un piso en Espaa/a_cat_button button__profil_user menu-user-icon'))
+
+not_run: WebUI.click(findTestObject('alertes-italia/i_en_demo-icon icon-user-4'))
+
+WebUI.click(findTestObject('Site public - ITALIE/Page_iad - Compra, vendi o Affitta unimmobile in Italia/a_I MIEI ANNUNCI PREFERITI'))
 
 WebUI.verifyElementPresent(findTestObject('sans favoris/Page_iad - Comprar vender y alquilar una casa o un piso en Espaa/a_Comenzar mi bsqueda'), 
     0)

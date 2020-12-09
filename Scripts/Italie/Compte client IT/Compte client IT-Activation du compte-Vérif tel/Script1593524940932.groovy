@@ -24,9 +24,11 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/activation compte Italie-vérif num tel/span_Crea il tuo account'))
 
-WebUI.switchToWindowTitle('(510) MailDev')
+not_run: WebUI.switchToWindowTitle('(510) MailDev')
 
 WebUI.click(findTestObject('Object Repository/activation compte Italie-vérif num tel/a_Conferma la mia iscrizione'))
+
+WebUI.click(findTestObject('alertes-italia/span_CHIUDERE'))
 
 WebUI.setText(findTestObject('Object Repository/activation compte Italie-vérif num tel/input_Sigra__firstname'), 'amina')
 
@@ -34,7 +36,7 @@ WebUI.setText(findTestObject('Object Repository/activation compte Italie-vérif 
 
 WebUI.setText(findTestObject('Object Repository/activation compte Italie-vérif num tel/input_Sigra__phonenumber'), '0605645626')
 
-WebUI.click(findTestObject('Page_iad - Compra vendi o Affitta unimmobil_7ccb86/span_CHIUDERE'))
+not_run: WebUI.click(findTestObject('Page_iad - Compra vendi o Affitta unimmobil_7ccb86/span_CHIUDERE'))
 
 WebUI.getAttribute(findTestObject('activation compte Italie-vérif num tel/input_Sigra__phonenumber'), 'type')
 

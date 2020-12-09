@@ -23,35 +23,35 @@ WebUI.navigateToUrl('http://preprod.iadfrance.fr/')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/Site public - Espace presse/Page_iad - Vente, achat, location, maison, _20b116/a_Espace presse'))
+WebUI.click(findTestObject('Site - public Espagne - au 07-12-2020/Site public - Espace presse/Page_iad - Vente, achat, location, maison, _20b116/a_Espace presse'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Site public - Espace presse/Page_Presse - iad International/a_Contacter le service presse'))
+WebUI.verifyElementClickable(findTestObject('Site - public Espagne - au 07-12-2020/Site public - Espace presse/Page_Presse - iad International/a_Contacter le service presse'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Site public - Espace presse/Page_Presse - iad International/span_Revue de presse'), 
+WebUI.verifyElementPresent(findTestObject('Site - public Espagne - au 07-12-2020/Site public - Espace presse/Page_Presse - iad International/span_Revue de presse'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Site public - Espace presse/Page_Presse - iad International/p_Ils parlent diad'), 
+WebUI.verifyElementPresent(findTestObject('Site - public Espagne - au 07-12-2020/Site public - Espace presse/Page_Presse - iad International/p_Ils parlent diad'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Site public - Espace presse/Page_Presse - iad International/button_En charger plus'), 
+WebUI.verifyElementPresent(findTestObject('Site - public Espagne - au 07-12-2020/Site public - Espace presse/Page_Presse - iad International/button_En charger plus'), 
     0)
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Site public - Espace presse/Page_Presse - iad International/button_En charger plus'))
+WebUI.verifyElementClickable(findTestObject('Site - public Espagne - au 07-12-2020/Site public - Espace presse/Page_Presse - iad International/button_En charger plus'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Site public - Espace presse/Page_Presse - iad International/span_Communiqus de presse'), 
+WebUI.verifyElementPresent(findTestObject('Site - public Espagne - au 07-12-2020/Site public - Espace presse/Page_Presse - iad International/span_Communiqus de presse'), 
     0)
 
-WebUI.click(findTestObject('Object Repository/Site public - Espace presse/Page_Presse - iad International/button_Communiqus de presse_block-carousel__b3ff11'))
+WebUI.click(findTestObject('Site - public Espagne - au 07-12-2020/Site public - Espace presse/Page_Presse - iad International/button_Communiqus de presse_block-carousel__b3ff11'))
 
-WebUI.click(findTestObject('Object Repository/Site public - Espace presse/Page_Presse - iad International/button_Communiqus de presse_block-carousel__bb40b7'))
+WebUI.click(findTestObject('Site - public Espagne - au 07-12-2020/Site public - Espace presse/Page_Presse - iad International/button_Communiqus de presse_block-carousel__bb40b7'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Site public - Espace presse/Page_Presse - iad International/div_Tlchargez notre kit de presse          _123ef3'), 
+WebUI.verifyElementPresent(findTestObject('Site - public Espagne - au 07-12-2020/Site public - Espace presse/Page_Presse - iad International/div_Tlchargez notre kit de presse          _123ef3'), 
     0)
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Site public - Espace presse/Page_Presse - iad International/a_Tlcharger_1'), 
+WebUI.waitForElementPresent(findTestObject('Site - public Espagne - au 07-12-2020/Site public - Espace presse/Page_Presse - iad International/a_Tlcharger_1'), 
     0)
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Site public - Espace presse/Page_Presse - iad International/a_Tlcharger_1'))
+WebUI.verifyElementClickable(findTestObject('Site - public Espagne - au 07-12-2020/Site public - Espace presse/Page_Presse - iad International/a_Tlcharger_1'))
 
