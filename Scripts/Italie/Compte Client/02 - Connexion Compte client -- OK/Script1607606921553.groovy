@@ -29,25 +29,17 @@ WebUI.click(findTestObject('ITA - Site public Italie/ajout favoris-italia/span_C
 
 WebUI.delay(5)
 
-WebUI.delay(5)
-
-WebUI.click(findTestObject('ITA - Site public Italie/Page acceuil/i_it_demo-icon icon-user-4'))
+WebUI.click(findTestObject('ITA - Site public Italie/02 - Menu/i_it_demo-icon icon-user-4'))
 
 WebUI.verifyElementClickable(findTestObject('ITA - Site public Italie/ajout favoris-italia/a_I MIEI ANNUNCI PREFERITI'))
 
 WebUI.click(findTestObject('ITA - Site public Italie/ajout favoris-italia/a_I MIEI ANNUNCI PREFERITI'))
 
-WebUI.click(findTestObject('ITA - Site public Italie/Creation de compte/ITA_li_onglet_create_account'))
+WebUI.setText(findTestObject('ITA - Site public Italie/04 - Connexion compte/ITA_input_user_email'), 'ikhlass@gmail.com')
 
-WebUI.setText(findTestObject('ITA - Site public Italie/Creation de compte/ITA_input_Create_Account_Email'), 'test_creation_compte1@test.iad')
+WebUI.setEncryptedText(findTestObject('ITA - Site public Italie/04 - Connexion compte/ITA_input__password'), 'DTAy7IptbAQaYMX8SnlFtg==')
 
-WebUI.setEncryptedText(findTestObject('ITA - Site public Italie/Creation de compte/ITA_input_Create_Account_Password1_set'), 
-    'R2dZ4hvJ2ugmSF41W9Lwpw==')
+WebUI.click(findTestObject('ITA - Site public Italie/04 - Connexion compte/ITA_bouton_sign_in'))
 
-WebUI.setEncryptedText(findTestObject('ITA - Site public Italie/Creation de compte/ITA_input_Create_Account_Password2_confirm'), 
-    'R2dZ4hvJ2ugmSF41W9Lwpw==')
-
-WebUI.click(findTestObject('ITA - Site public Italie/Creation de compte/ITA_button_subscribe'))
-
-WebUI.closeBrowser()
+not_run: WebUI.closeBrowser()
 
