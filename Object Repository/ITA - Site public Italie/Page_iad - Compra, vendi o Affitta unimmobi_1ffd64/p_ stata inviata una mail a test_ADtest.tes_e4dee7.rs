@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='createAccountForm']/p</value>
+         <value>//*[@id=&quot;createAccountForm&quot;]/p</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='createAccountForm']/p</value>
+      <value>//*[@id=&quot;createAccountForm&quot;]/p</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

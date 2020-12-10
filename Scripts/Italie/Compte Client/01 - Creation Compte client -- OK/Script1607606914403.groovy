@@ -39,15 +39,20 @@ WebUI.click(findTestObject('ITA - Site public Italie/ajout favoris-italia/a_I MI
 
 WebUI.click(findTestObject('ITA - Site public Italie/03 - Creation de compte/ITA_li_onglet_create_account'))
 
-WebUI.setText(findTestObject('ITA - Site public Italie/03 - Creation de compte/ITA_input_Create_Account_Email'), 'test_creation_compte1@test.iad')
+String ts = System.currentTimeMillis().toString()
 
+WebUI.setText(findTestObject('ITA - Site public Italie/03 - Creation de compte/ITA_input_Create_Account_Email'), ts + '@test.com')
+
+//WebUI.setText(findTestObject('ITA - Site public Italie/03 - Creation de compte/ITA_input_Create_Account_Email'), 'test_creation_compte2@test.iad')
 WebUI.setEncryptedText(findTestObject('ITA - Site public Italie/03 - Creation de compte/ITA_input_Create_Account_Password1_set'), 
     'R2dZ4hvJ2ugmSF41W9Lwpw==')
 
 WebUI.setEncryptedText(findTestObject('ITA - Site public Italie/03 - Creation de compte/ITA_input_Create_Account_Password2_confirm'), 
     'R2dZ4hvJ2ugmSF41W9Lwpw==')
 
+WebUI.click(findTestObject('ITA - Site public Italie/03 - Creation de compte/ITA_input_case_a_cocher_termes-et-conditions'))
+
 WebUI.click(findTestObject('ITA - Site public Italie/03 - Creation de compte/ITA_button_subscribe'))
 
-WebUI.closeBrowser()
+not_run: WebUI.closeBrowser()
 
