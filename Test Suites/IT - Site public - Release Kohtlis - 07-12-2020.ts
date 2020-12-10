@@ -15,19 +15,19 @@
       <guid>105f521a-60da-4647-b96c-2b71e49670a7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Italie/Compte Client/02 - Connexion Compte client</testCaseId>
+      <testCaseId>Test Cases/Italie/Compte Client/01 - Creation Compte client -- OK</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>8ba0c2ff-c5f0-438a-8f34-8d9e2817e00b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Italie/Compte Client/04 - Accéder aux favoris</testCaseId>
+      <testCaseId>Test Cases/Italie/Compte Client/04 - Accéder aux favoris -- OK</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a0329748-7a6a-435e-8080-b594e41fbc18</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Italie/Compte Client/03 - mot de passe oublié</testCaseId>
+      <testCaseId>Test Cases/Italie/Compte Client/03 - mot de passe oublié -- OK</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>593300cc-073c-43e3-b820-28b4dacdc461</guid>
