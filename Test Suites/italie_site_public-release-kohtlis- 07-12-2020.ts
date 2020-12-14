@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Suite Italie</name>
+   <name>italie_site_public-release-kohtlis- 07-12-2020</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,201 +10,201 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>a3b4cc90-45bf-405a-abb0-e44cce7793d7</testSuiteGuid>
+   <testSuiteGuid>cb0b2244-016a-4476-b080-30eb1d3e0c2e</testSuiteGuid>
    <testCaseLink>
-      <guid>7eae0a50-67a1-4e12-9a44-46d6914ca582</guid>
+      <guid>105f521a-60da-4647-b96c-2b71e49670a7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Italie/compte_client/01-creation_compte_client_no_closure--ok</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>aa400555-3aaf-4458-a43b-7410f131cafd</guid>
+      <guid>8ba0c2ff-c5f0-438a-8f34-8d9e2817e00b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Italie/compte_client/04-acceder_aux_favoris--ok</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>81fab65d-d537-4e2c-a03c-687a9bf34873</guid>
+      <guid>a0329748-7a6a-435e-8080-b594e41fbc18</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Italie/compte_client/03-mot_de_passe_oublie--ok</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a5bc3585-5bf0-4803-bc8c-7d12cf0b1592</guid>
+      <guid>593300cc-073c-43e3-b820-28b4dacdc461</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Italie/compte_client_it/02-nouveau_compte_client_premier_ajout_alerte--ok</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>30f3a14b-31a1-43ec-923c-d42f962d3114</guid>
+      <guid>0faf5102-d383-4705-a6c0-cde9f6fa2a3a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Italie/compte_client_it/03-compte_client_it_alerte_si_une_alerte_existe</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e8995eac-06c9-47f1-a4a6-054b9e426ff8</guid>
+      <guid>e5b4bfa6-bbd7-4199-938d-e8a8a38e05d8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Italie/Archives/04-compte_client_it_ creation_de_compte--doublon</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>3f74be0b-424e-4c23-9fc2-6071e433129a</guid>
+      <guid>bc04b34c-412e-4331-833f-0984e098590b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Italie/compte_client_it/Compte client IT-Abonnement</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>cf864260-9f75-4f2c-bc6b-9a5fe5147106</guid>
+      <guid>0cf607ea-f41f-48b8-a9a0-f4fb28d76850</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Italie/compte_client_it/Compte client IT-Activation du compte-Vérif tel</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d2cf280a-3897-443a-afb9-5cb039d3a783</guid>
+      <guid>79a3ad69-50e6-4fca-9877-115c58d0df77</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Italie/compte_client_it/Compte client IT-Ajout favori</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>38397a33-19b4-42d9-951d-95a364b53574</guid>
+      <guid>1e58451d-b498-42ce-a151-316c70a898c0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Italie/compte_client_it/Compte client IT-favoris si au moins un favoris</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>277315af-728d-49b7-a945-7ff6e36af2d4</guid>
+      <guid>6a884855-1ec4-4b68-84bb-d4b19e79891f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Italie/compte_client_it/Compte client IT-My favorite si aucun favoris</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>ab9269e3-a37f-4202-9695-bbff7e2a9a59</guid>
+      <guid>8475d3d3-34a0-4094-926f-4ebfabd3990f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Italie/page_acceuil/formulaire nous contacter</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e0874e68-d047-488f-a34f-4e8d2e870985</guid>
+      <guid>026ed4bf-0c52-4958-aa47-12502ca66523</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Italie/page_acceuil/test accueil</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>50c1c025-300e-42af-b9e2-c8a142078bf0</guid>
+      <guid>ea49e2d1-b6bd-4129-8de7-2a91983aa0ec</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Italie/page_acheter/tester formulaire Bottom de la page acheter</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>3ce341f6-71b1-4495-9ebc-19c031a7577d</guid>
+      <guid>3944a8db-0fad-4ce3-baf3-d849e9639c0a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Italie/page_acheter/tester le formulaire Top de la page acheter</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e4dfe3f0-aa80-47ae-9cbd-6b4d909ea890</guid>
+      <guid>def5aa6c-9be0-45d7-aafd-4c1a66697504</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Italie/page_acheter/tester page acheter</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>52a31417-df87-4ff5-bb2b-4c2b9d951d66</guid>
+      <guid>5a5b308f-1955-48c1-90fb-8842923d9882</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Italie/page_acheter/tester tuile annonce standard et prestige</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7e351962-07f8-4deb-b038-c1ec03324b30</guid>
+      <guid>4dc307c0-61c3-4d2f-a07c-123482e0339d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Italie/page_iad_coups_de_coeur/test page iad Coup de coeur</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>5149b7a6-4d41-4c95-baa4-150bcb740490</guid>
+      <guid>9c181b3a-2a4f-4c7f-9af3-96d3c19bd3fa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Italie/page_iad_exculsive/tester la page Iad exclusive</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>701c87fe-84ab-49d1-8500-1cbdee66bef2</guid>
+      <guid>1afbf6e1-9bf2-4a50-8df8-eb3df6753b56</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Italie/page_louer_it/Page louer IT- formulaire contact</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>775584fb-ca7a-46e9-8f31-3965891bec5e</guid>
+      <guid>12569367-0382-4400-b9c0-0615418e7742</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Italie/page_louer_it/Page louer IT- zone recherche</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>95871c8c-e777-4fda-b3a0-28bfbeb2f147</guid>
+      <guid>e19767cf-0f11-4d1e-8cad-8400d7b0f0d7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Italie/page_louer_it/Page louer IT-formulaire contact 2</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>83614c64-0fe0-4ba1-bad5-28bc529bbfc8</guid>
+      <guid>5a879365-d236-4a57-baa0-efca691e27ce</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Italie/page_louer_it/Page louer IT-mini site conseiller Vérification des champs obligatoirs</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>83a45264-e229-4bfe-9952-32d66d3682bb</guid>
+      <guid>4758e0c3-5a52-42b1-a5a7-48351df447d1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Italie/page_louer_it/Page louer IT-Tester la cohérence des annonces</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>47486e4b-52e9-414c-bbb3-1aa6faf0f3c9</guid>
+      <guid>557ac556-6aab-4631-8d3a-639387c2a8b5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Italie/page_louer_it/Page louer IT-Tester les Annonces à louer</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>fbc9fc06-aba7-4cd4-9955-788772122a06</guid>
+      <guid>57a7e4c1-365f-4eff-aff7-ef91ba43ea0b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Italie/page_nous_rejoindre/tester formulaire de la page</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>1df810c9-ffb5-4bf1-b136-0d0b3b296d2e</guid>
+      <guid>caed8004-433e-4eea-af43-18461f5ffbd0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Italie/page_prestige/Page Prestige IT- Accessibilité du formulaire</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>93f510b6-9891-4105-a3ea-0db4717e151c</guid>
+      <guid>8f7902f1-8392-4368-ba4f-2e8167bb8bce</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Italie/page_prestige/Page Prestige IT- accès au formulaire -message de confirmation</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b807fe29-7c70-4170-b8e6-7d82b5a79a1b</guid>
+      <guid>b4a57f84-c0b8-42b1-b852-9564430fe01b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Italie/page_prestige/Page Prestige IT-formulaire contact-champs obligatoire</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>8a043bc4-4e16-44e1-b672-c59f0ad68cb6</guid>
+      <guid>825fd058-570a-4447-97eb-2b73f28d175e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Italie/page_prestige/Page Prestige IT-Nombre annonces</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>bff4e268-5f5b-4a6b-9423-8b9028986fd3</guid>
+      <guid>ed3601d5-5a7f-43b3-963d-4f41ce93cacc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Italie/page_trouver_un_conseiller/tester la coherence nombre annonce via diffirents lien</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>13a73cca-1382-432a-a70b-e807b9d1444e</guid>
+      <guid>dbaaf725-6b82-49de-99b8-29b30348fdf8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Italie/page_vendre_it/Page à vendre IT- formulaire vendre un bien-message de confirmation</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>ccad7022-4b35-4d6c-8e84-b8bf34e90e21</guid>
+      <guid>afdd3bbb-8cd1-4330-a4a1-8d74690a3d38</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Italie/page_vendre_it/Page à vendre IT-tester les champs obligatoires du formulaire</testCaseId>

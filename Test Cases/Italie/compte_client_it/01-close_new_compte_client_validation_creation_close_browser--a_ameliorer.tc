@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01-close_new_compte_client_validation_creation_close_browser--a_ameliorer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d165c272-20cc-42f1-9a22-8e40e8de855e</testCaseGuid>
+</TestCaseEntity>

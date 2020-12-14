@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ita_btn_reset_pwd_mail</name>
+   <tag></tag>
+   <elementGuidId>66764d04-9aa1-42a8-afe1-17d6929f3328</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr[3]/td/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>.button__cta</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr[3]/td/a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>.button__cta</value>
+   </webElementProperties>
+</WebElementEntity>

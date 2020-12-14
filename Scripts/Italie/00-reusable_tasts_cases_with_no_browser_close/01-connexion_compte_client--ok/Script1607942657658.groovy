@@ -17,7 +17,17 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
-WebUI.callTestCase(findTestCase('Italie/00-reusable_tasts_cases_with_no_browser_close/01-connexion_compte_client--ok'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
+
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl('https://preprod.iad-italia.it/')
+
+WebUI.waitForPageLoad(0)
+
+not_run: WebUI.click(findTestObject('ITA - Site public Italie/ajout favoris-italia/span_CHIUDERE'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('ITA - Site public Italie/02 - Menu/ita_i_demo-icon icon-user-4'))
 
@@ -25,13 +35,9 @@ WebUI.verifyElementClickable(findTestObject('ITA - Site public Italie/ajout favo
 
 WebUI.click(findTestObject('ITA - Site public Italie/ajout favoris-italia/a_I MIEI ANNUNCI PREFERITI'))
 
-WebUI.click(findTestObject('ITA - Site public Italie/05 - Mes favoris/image_du_premier_favoris'))
+WebUI.setText(findTestObject('ITA - Site public Italie/04 - Connexion compte/ITA_input_user_email'), 'ikhlass@gmail.com')
 
-WebUI.verifyElementClickable(findTestObject('ITA - Site public Italie/05 - Mes favoris/bouton_retirer_de_la_selection_fiche_annonce'))
+WebUI.setEncryptedText(findTestObject('ITA - Site public Italie/04 - Connexion compte/ITA_input__password'), 'DTAy7IptbAQaYMX8SnlFtg==')
 
-WebUI.click(findTestObject('ITA - Site public Italie/05 - Mes favoris/bouton_retirer_de_la_selection_fiche_annonce'))
-
-WebUI.click(findTestObject('ITA - Site public Italie/05 - Mes favoris/bouton_ajout_favoris_annonce_segui_questo_immobile'))
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('ITA - Site public Italie/04 - Connexion compte/ITA_bouton_sign_in'))
 
